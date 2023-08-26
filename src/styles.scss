@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/icons/icons";
+
+:root {
+  --bg-color-0: #343643;
+  --bg-color-1: #3e404f;
+  --bg-color-2: #282834;
+
+  --text-color-0: #fdfffe;
+  --text-color-1: #a3a5b2;
+
+  --color-0: #fbb811;
+}
+
+.text-tertiary {
+  color: var(--text-color-1);
+}
